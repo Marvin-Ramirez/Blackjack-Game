@@ -32,15 +32,15 @@ function direccionCartas(){
     }
     
     if (numeroCarta === 1){
-        direccionCarta = "../Blackjack/img/" + "A" + tipoCarta[numeroTipoCarta] +".png";
+        direccionCarta = "img/" + "A" + tipoCarta[numeroTipoCarta] +".png";
     } else if (numeroCarta === 11){
-        direccionCarta = "../Blackjack/img/" + "J" + tipoCarta[numeroTipoCarta] +".png";
+        direccionCarta = "img/" + "J" + tipoCarta[numeroTipoCarta] +".png";
     } else if (numeroCarta === 12){
-        direccionCarta = "../Blackjack/img/" + "Q" + tipoCarta[numeroTipoCarta] +".png";
+        direccionCarta = "img/" + "Q" + tipoCarta[numeroTipoCarta] +".png";
     } else if (numeroCarta === 13){
-        direccionCarta = "../Blackjack/img/" + "K" + tipoCarta[numeroTipoCarta] +".png";
+        direccionCarta = "img/" + "K" + tipoCarta[numeroTipoCarta] +".png";
     } else {
-        direccionCarta = "../Blackjack/img/" + numeroCarta + tipoCarta[numeroTipoCarta] +".png";
+        direccionCarta = "img/" + numeroCarta + tipoCarta[numeroTipoCarta] +".png";
     }
 }
 
