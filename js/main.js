@@ -89,7 +89,14 @@ function puntajeComputadora(){
     while(true){
         if(puntaje > 21){
             mostrarCartaComputadora();
-            textoComputadora.textContent = `Computadora - ${numeroCarta}`;
+            if (numeroCarta === 11 || numeroCarta === 12 || numeroCarta === 13){
+                    puntajeC += 10;
+                } else if (numeroCarta === 1){
+                    puntajeC += 11;
+                } else {
+                    puntajeC += numeroCarta;
+                } 
+            textoComputadora.textContent = `Computadora - ${puntajeC}`;
             break;
         }
 
